@@ -203,7 +203,7 @@ Diagrams:
 #### Design considerations
 
 - Chosen approach: Snapshot the entire `AddressBook` for each modifying command
-  - Pros: Simple and robust; commands do not need bespoke inverse logic
+  - Pros: Simple and robust
   - Cons: Higher memory usage for large datasets
 - Alternative: Command-specific inverse operations
   - Pros: Lower memory footprint
